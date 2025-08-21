@@ -1,3 +1,8 @@
+:root {
+  --bs-link-color: #198754;
+  --bs-link-hover-color: #146c43;
+}
+
 .btn {
   --bs-btn-bg: #198754;
   --bs-btn-border-color: #146c43;
@@ -6,6 +11,13 @@
   --bs-btn-active-bg: #0e5735;
 }
 
+section {
+  scroll-margin-top: 6rem;
+}
+
+main {
+  margin-top: 5rem;
+}
 .navbar-brand img {
   width: 55px;
   border-radius: 50%;
@@ -27,4 +39,25 @@
   height: 100%;
   background: linear-gradient(transparent, rgb(31, 31, 31));
   position: absolute;
+}
+
+.card-menu img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-menu {
+  height: 500px;
+}
+
+.card-menu .valor {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  width: 60px;
+  border-radius: 50%;
 }
